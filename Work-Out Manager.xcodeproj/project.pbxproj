@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		584635D728DDD0880085172D /* TimerVC + Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584635D628DDD0880085172D /* TimerVC + Time.swift */; };
 		588F24AC28D72249000DCCB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588F24AB28D72249000DCCB0 /* AppDelegate.swift */; };
 		588F24AE28D72249000DCCB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588F24AD28D72249000DCCB0 /* SceneDelegate.swift */; };
-		588F24B028D72249000DCCB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588F24AF28D72249000DCCB0 /* ViewController.swift */; };
 		588F24B328D72249000DCCB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 588F24B128D72249000DCCB0 /* Main.storyboard */; };
 		588F24B528D7224A000DCCB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 588F24B428D7224A000DCCB0 /* Assets.xcassets */; };
-		588F24B828D7224A000DCCB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 588F24B628D7224A000DCCB0 /* LaunchScreen.storyboard */; };
+		588F24C028D72297000DCCB0 /* Timer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 588F24BF28D72297000DCCB0 /* Timer.storyboard */; };
+		588F24C228D7230A000DCCB0 /* Program.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 588F24C128D7230A000DCCB0 /* Program.storyboard */; };
+		588F24C528D725D3000DCCB0 /* TimerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588F24C428D725D3000DCCB0 /* TimerVC.swift */; };
+		588F24CA28D7261C000DCCB0 /* ProgramVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588F24C928D7261C000DCCB0 /* ProgramVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		584635D628DDD0880085172D /* TimerVC + Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimerVC + Time.swift"; sourceTree = "<group>"; };
 		588F24A828D72249000DCCB0 /* Work-Out Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Work-Out Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		588F24AB28D72249000DCCB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		588F24AD28D72249000DCCB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		588F24AF28D72249000DCCB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		588F24B228D72249000DCCB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		588F24B428D7224A000DCCB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		588F24B728D7224A000DCCB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		588F24B928D7224A000DCCB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		588F24BF28D72297000DCCB0 /* Timer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Timer.storyboard; sourceTree = "<group>"; };
+		588F24C128D7230A000DCCB0 /* Program.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Program.storyboard; sourceTree = "<group>"; };
+		588F24C428D725D3000DCCB0 /* TimerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerVC.swift; sourceTree = "<group>"; };
+		588F24C928D7261C000DCCB0 /* ProgramVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,42 @@
 		588F24AA28D72249000DCCB0 /* Work-Out Manager */ = {
 			isa = PBXGroup;
 			children = (
-				588F24AB28D72249000DCCB0 /* AppDelegate.swift */,
+				588F24C628D725F4000DCCB0 /* Base */,
+				588F24C728D725FB000DCCB0 /* Timer */,
+				588F24C828D72600000DCCB0 /* Program */,
 				588F24AD28D72249000DCCB0 /* SceneDelegate.swift */,
-				588F24AF28D72249000DCCB0 /* ViewController.swift */,
-				588F24B128D72249000DCCB0 /* Main.storyboard */,
+				588F24AB28D72249000DCCB0 /* AppDelegate.swift */,
 				588F24B428D7224A000DCCB0 /* Assets.xcassets */,
-				588F24B628D7224A000DCCB0 /* LaunchScreen.storyboard */,
 				588F24B928D7224A000DCCB0 /* Info.plist */,
 			);
 			path = "Work-Out Manager";
+			sourceTree = "<group>";
+		};
+		588F24C628D725F4000DCCB0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				588F24B128D72249000DCCB0 /* Main.storyboard */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		588F24C728D725FB000DCCB0 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				588F24BF28D72297000DCCB0 /* Timer.storyboard */,
+				588F24C428D725D3000DCCB0 /* TimerVC.swift */,
+				584635D628DDD0880085172D /* TimerVC + Time.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		588F24C828D72600000DCCB0 /* Program */ = {
+			isa = PBXGroup;
+			children = (
+				588F24C128D7230A000DCCB0 /* Program.storyboard */,
+				588F24C928D7261C000DCCB0 /* ProgramVC.swift */,
+			);
+			path = Program;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +158,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				588F24B828D7224A000DCCB0 /* LaunchScreen.storyboard in Resources */,
+				588F24C028D72297000DCCB0 /* Timer.storyboard in Resources */,
 				588F24B528D7224A000DCCB0 /* Assets.xcassets in Resources */,
 				588F24B328D72249000DCCB0 /* Main.storyboard in Resources */,
+				588F24C228D7230A000DCCB0 /* Program.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +172,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				588F24B028D72249000DCCB0 /* ViewController.swift in Sources */,
 				588F24AC28D72249000DCCB0 /* AppDelegate.swift in Sources */,
+				588F24C528D725D3000DCCB0 /* TimerVC.swift in Sources */,
 				588F24AE28D72249000DCCB0 /* SceneDelegate.swift in Sources */,
+				588F24CA28D7261C000DCCB0 /* ProgramVC.swift in Sources */,
+				584635D728DDD0880085172D /* TimerVC + Time.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,14 +189,6 @@
 				588F24B228D72249000DCCB0 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		588F24B628D7224A000DCCB0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				588F24B728D7224A000DCCB0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
